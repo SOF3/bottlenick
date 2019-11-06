@@ -1,0 +1,9 @@
+# Rust files
+/target
+**/*.rs.bk
+.*.sw[a-z]
+*.asc
+*.gpg
+*.sig
+secrets.toml
+.env

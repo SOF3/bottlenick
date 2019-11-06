@@ -1,0 +1,16 @@
+[package]
+name = "bottlenick-schema"
+version = "0.1.0"
+authors = ["SOFe <sofe2038@gmail.com>"]
+edition = "2018"
+license = "AGPL-3.0"
+repository = "https://github.com/SOF3/bottlenick"
+homepage = "https://github.com/SOF3/bottlenick"
+readme = "README.md"
+description = "Diesel schema crate for bottlenick"
+
+[lib]
+name = "schema"
+
+[dependencies]
+diesel = {version = "1.4.3", features = ["postgres", "r2d2"]}
