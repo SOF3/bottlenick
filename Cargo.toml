@@ -12,7 +12,7 @@ description = "Discord bot that rate-limits users from changing their nicks"
 [dependencies]
 bottlenick-schema = {path = "schema", version = "0.1.0"}
 chrono = "0.4.9"
-config = "0.9.3"
+config = "0.10.0"
 derive_more = "0.99.0"
 diesel = {version = "1.4.3", features = ["postgres", "r2d2"]}
 dirmod = "0.1.4"
