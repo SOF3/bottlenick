@@ -16,7 +16,7 @@ config = "0.10.1"
 derive_more = "0.99.0"
 diesel = {version = "1.4.3", features = ["postgres", "r2d2"]}
 dirmod = "0.1.4"
-getset = "0.0.9"
+getset = "0.1.0"
 log = "0.4.8"
 r2d2 = "0.8.6"
 serde = {version = "1.0", features = ["derive"]}
